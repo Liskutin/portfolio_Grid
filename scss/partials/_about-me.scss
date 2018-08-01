@@ -1,0 +1,61 @@
+
+.about-me {
+    @include container;
+    @include clearfix;  // just for fall back in case browser does not support CSS GRID
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.about-img {
+    max-height: 25em;
+    
+    @media (min-width: 42em) {
+    float: left;
+    margin-right: 1em;
+    }
+}
+
+.about-title {
+    margin-bottom: .25em;
+}
+
+.about-subtitle {
+    margin: .5em 0;
+}
+
+.about-text {
+    text-align: justify; // comming from uni - used to justify. Not sure if its not a norm. People I watch to learn code don't use it.
+}
+
+@supports (display: grid) {
+    .about-me {
+        display: grid;
+        grid-template-columns:[port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr) [img-end] 2fr [port-end];
+        grid-column-gap: 1em;
+    }
+
+    .about-img {
+        grid-column: port-start / img-end;
+        grid-row: 1 / 2; 
+
+        @include mq {
+            grid-row:  1/ 4; // Big screen different layout
+        }
+    }
+
+    .about-title {
+        grid-column: name-start / port-end;
+        grid-row: 1 / 2; // makes text over img overlap. Setting I want this element in row from 1 to 2!
+        align-self: end;
+
+    }
+
+    .about-subtitle,
+    .about-text {
+        grid-column: port / port;
+
+        @include mq {
+            grid-column: img-end / port-end // Big screen different layout
+        }
+    }
+}  

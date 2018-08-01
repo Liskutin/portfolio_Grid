@@ -1,0 +1,26 @@
+
+@mixin container($width: 90%, $max-width: 50em) {
+    width:$width;
+    margin: 0 auto;
+    max-width: $max-width;
+}
+
+@mixin clearfix { // ** to learn ** Note for myself, this part gotta read up! Used for fixing text issues without grid system / fall out.
+    &::after {
+    content: '';
+    display: block;
+    clear: both;
+    }
+}
+
+@mixin mq($width: 50em) {
+    @media (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin fullScreen($width: 64em) {
+    @media (min-width: $width) {
+        @content;
+    }
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps');
+
+$ff-s: 'Merriweather', serif;
+$ff-ss: 'Six Caps', sans-serif;
+
+$fw-n: 400;
+$fw-b: 900;
+
+@mixin sans-serif($fs, $ls: .15em, $color: $dark-gray, $tt: uppercase, $lh: 1  ) {
+    font-size: $fs;
+    letter-spacing: $ls;
+    color: $color;
+    text-transform: $tt;
+    line-height: $lh;
+    font-family: $ff-ss;
+    font-weight: $fw-n;
+}
+    // Alright, so this is used because these css settings are consistently used throughout the project - making it easier not to write them each time
+    // Instead will use only @include()
+    // $ls: .6em - it meas .6em is default and can be overwirten by>
+        // @include(ls: 1em) - for instance. Meaning it imports all, keeping defaults and overwirtes this.
+    // NOTES ARE INTENDED NOT TO 'EDUCATE YOU' BUT FOR MYSELF :)
