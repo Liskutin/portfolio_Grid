@@ -8,7 +8,7 @@ was to get familiar with CSS Grid and see how to utilize it and at the same time
 The site was not created on CSS grid alone as one big grid. As the author noted, use of sections ensures nice stackings and keeps the code simple. Grid
 was used only in a certain section - intro, portfolio, contact form.
 
-Furthermore, I would like to highlight that the project taught me the use of mixins / @supports / gulp and clean folder system ish.
+Furthermore, I would like to highlight that the project 'taught' me the use of mixins / @supports / Media quaries / Gulp and clean folder system ish.
 
 Lastly,
 
