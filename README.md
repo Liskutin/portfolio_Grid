@@ -12,4 +12,4 @@ Furthermore, I would like to highlight that the project taught me the use of mix
 
 Lastly,
 
-DISCLAIMER: This project was intended as a learning exercise and therefore fallows steps of Kevin Powell's youtube series.
+DISCLAIMER: This project was intended as a learning exercise and therefore fallows steps of Kevin Powell's youtube series. Unfortunatelly, I am not familiar with design side of the website.
