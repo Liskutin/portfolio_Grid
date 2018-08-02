@@ -1,5 +1,7 @@
 # portfolio_Grid
 
+EDIT: Header-bg.png is throwing error - working on it.
+
 The project is a result of me self-learning web development (front so far).
 
 As such the Portfolio utilizes HTML5, CSS3 and JavaScript [navbar, which I ented to replace in future]. The core purpose of this project
