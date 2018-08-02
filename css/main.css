@@ -412,7 +412,7 @@ nav a {
   transition: transform ease-out 250ms; }
 
 .welcome {
-  background-image: url(../../img/header-bg.jpg);
+  background-image: url(../img/header-bg.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -595,7 +595,7 @@ figure {
   border-bottom: 2px solid #FFFFFF;
   align-self: flex-start; }
   .portfolio-link::after {
-    content: url(../../img/arrow.svg);
+    content: url(../img/arrow.svg);
     display: inline-block;
     height: .8em;
     width: .8em;
@@ -632,7 +632,9 @@ form {
       form {
         display: grid;
         column-gap: 1em;
-        grid-template-areas: 'name      email' 'message message' '  .      button'; }
+        grid-template-areas: 'name      email'
+ 'message message'
+ '  .      button'; }
         form .name {
           grid-area: name; }
         form .email {
