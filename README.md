@@ -1,6 +1,6 @@
 # portfolio_Grid
 
-EDIT: Header-bg.png is throwing error - working on it.
+EDIT: Header-bg.png is throwing error - working on it. - Fixed.
 
 The project is a result of me self-learning web development (front so far).
 
