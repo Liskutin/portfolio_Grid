@@ -596,7 +596,7 @@ figure {
   border-bottom: 3px solid #FFFFFF;
   align-self: flex-start; }
   .portfolio-link::after {
-    content: url(../../img/arrow.svg);
+    content: url(../img/arrow.svg);
     display: inline-block;
     height: .8em;
     width: .8em;
