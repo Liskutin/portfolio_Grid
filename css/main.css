@@ -596,7 +596,7 @@ figure {
   border-bottom: 3px solid #FFFFFF;
   align-self: flex-start; }
   .portfolio-link::after {
-    content: url(../img/arrow.svg);
+    content: url(../img/arrow-white.svg);
     display: inline-block;
     height: .8em;
     width: .8em;
@@ -728,7 +728,9 @@ form {
       form {
         display: grid;
         column-gap: 1em;
-        grid-template-areas: 'name      email' 'message message' '  .      button'; }
+        grid-template-areas: 'name      email'
+ 'message message'
+ '  .      button'; }
         form .name {
           grid-area: name; }
         form .email {
